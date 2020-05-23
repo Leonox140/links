@@ -1,0 +1,62 @@
+/* CSS Documento */
+ul {
+  list-style-type:none;
+}
+
+a{
+    font-family: monospace;
+    font-size: 18px
+}
+
+a.classe1 {
+  background-color:aliceblue;
+  border: 1px solid black;
+}
+
+a.classe1:checked {
+  background-color:lightsteelblue;
+  border-color: hotpink;
+}
+
+a.classe2:link, a.classe2:visited {
+	text-decoration: underline overline
+	}
+a.classe2:hover {
+	text-decoration: underline; 
+	color: mediumpurple;
+	}
+a.classe2:active {
+	text-decoration: underline overline
+	}
+
+a.classe3:last-child  {
+    border-right: none;
+	background:purple; 
+	color:skyblue;
+	}
+
+a.classe4:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a.classe4:hover {
+	text-decoration: underline; 
+	color:skyblue; 
+	background:blueviolet ; 
+	}
+
+a.classe5:link, a:visited, a:active {
+	text-decoration: none;
+	}
+
+a.classe5:hover {text-decoration: underline;  
+	color:magenta; 
+	font-size:150%; 
+	}
+
+a.classe6:link, a:visited, a:active {
+	text-decoration: underline;
+	}
+a.classe6:hover {
+	text-decoration: underline overline; 
+	color: lightseagreen;
+	}
